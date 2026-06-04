@@ -36,7 +36,7 @@ cd AI-Phishing-Detector
  2. Install Dependencies
 Install the required Google GenAI library using pip:
 
-```bash
+
 pip install -r requirements.txt
 
  3. Set Up Your API Key
@@ -48,7 +48,6 @@ API_KEY = "YOUR_SECURE_API_KEY"
  4. Run the Tool
 Execute the Python script to start analyzing the sample phishing text:
 
-```bash 
 python detector.py
 
 🔮 Future Roadmap
