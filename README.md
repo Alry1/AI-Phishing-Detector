@@ -33,11 +33,12 @@ To copy this project to your local machine, run the following command in your te
 git clone [https://github.com/Alry1/AI-Phishing-Detector.git](https://github.com/Alry1/AI-Phishing-Detector.git)
 cd AI-Phishing-Detector
 
+
  2. Install Dependencies
 Install the required Google GenAI library using pip:
 
-
 pip install -r requirements.txt
+
 
  3. Set Up Your API Key
 Open the ⁠detector.py⁠ file and insert your personal Google AI Studio secret key inside the API_KEY variable:
@@ -45,10 +46,12 @@ Open the ⁠detector.py⁠ file and insert your personal Google AI Studio secret
 Python
 API_KEY = "YOUR_SECURE_API_KEY"
 
+
  4. Run the Tool
 Execute the Python script to start analyzing the sample phishing text:
 
 python detector.py
+
 
 🔮 Future Roadmap
  Build a web interface using Streamlit for interactive enterprise use.
